@@ -18,3 +18,16 @@ des=precio3-calculo;
 
 console.log(`El precio final es de : ${des}`);
 console.log(`Usted a ahorrado: ${calculo}`);
+
+function cal(edad){
+    if(edad <18){
+        console.log(`Eres menor de edad`);
+    }else if(edad>=18 && edad<65){
+        console.log(`Eres un adulto`);
+    }else{
+        console.log(`Eres un adulto mayor`);
+    }
+}
+
+let edad = 64;
+cal(edad);
