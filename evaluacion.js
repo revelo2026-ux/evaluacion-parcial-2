@@ -5,3 +5,16 @@ let producto2 = false;
 
 console.log(`El precio de ${nombre1} es de: ${precio2}`);
 console.log(`El precio de ${nombre2} es de: ${precio1}`);
+
+
+let precio3=5;
+const descuento=0.15;
+
+let calculo;
+calculo = precio3*0.15;
+
+let des;
+des=precio3-calculo;
+
+console.log(`El precio final es de : ${des}`);
+console.log(`Usted a ahorrado: ${calculo}`);
