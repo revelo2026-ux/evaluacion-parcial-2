@@ -31,3 +31,13 @@ function cal(edad){
 
 let edad = 64;
 cal(edad);
+
+
+let acum;
+for(let i=1;i<=20;i++){
+    if(i%2==0){
+        console.log(`${i} es par`);
+    }
+    acum=acum++; 
+}
+console.log(`La suma total es de:${acum}`);
